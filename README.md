@@ -74,6 +74,17 @@ Test ai chat
 </div>
 
 <script>
+ function sendMessage() {
+    const chat = document.getElementById("chat");
+    const input = document.getElementById("userInput");
+
+    if (input.value.trim() === "") return;
+
+    chat.innerHTML += `<p><strong>Toi :</strong> ${input.value}</p>`;
+    chat.innerHTML += `<p><strong>IA :</strong> Je te réponds pour l’instant automatiquement.</p>`;
+
+    input.value = "";
+  }
   const PASSWORD = "Qwerty12345";
 
   function checkPassword() {
