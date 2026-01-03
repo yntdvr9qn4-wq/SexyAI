@@ -74,7 +74,7 @@ Test ai chat
 </div>
 
 <script>
-  const PASSWORD = "TON_MOT_DE_PASSE";
+  const PASSWORD = "Qwerty12345";
 
   function checkPassword() {
     const input = document.getElementById("password").value;
