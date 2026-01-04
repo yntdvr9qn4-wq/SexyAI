@@ -1,6 +1,6 @@
 # SexyAI
 Test ai chat
-<!DOCTYPE html>
+<!index.html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
