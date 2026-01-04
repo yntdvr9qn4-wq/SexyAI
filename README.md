@@ -4,7 +4,7 @@ Test ai chat
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Chat privé</title>
+  <title>Chat public</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
