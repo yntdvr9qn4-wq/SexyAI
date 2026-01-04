@@ -61,14 +61,14 @@ Test ai chat
 <body>
 
 <div class="box" id="loginBox">
-  <h2>Accès privé</h2>
+  <h2>Accès public</h2>
   <input type="password" id="password" placeholder="Qwerty12345">
   <button onclick="checkPassword()">Entrer</button>
   <div class="error" id="error">Mot de passe incorrect</div>
 </div>
 
 <div class="box" id="contentBox" style="display:none;">
-  <h2>Chat IA privé</h2>
+  <h2>Chat IA public</h2>
   <p>Bienvenue Sebas. Le chat répond uniquement en français.</p>
   <div class="chat">🟢 Prêt à discuter.</div>
 </div>
